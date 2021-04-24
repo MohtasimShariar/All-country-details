@@ -1,5 +1,4 @@
 #countries{
-    background-color:rgb(100, 151, 160);
     border-radius: 20px;
     padding: 2px;
     display: grid;
@@ -7,7 +6,8 @@
     grid-gap:25px;
 }
 .country{
-    border: 3px solid black;
+    background-color:rgb(100, 151, 160);
+    border: 5px solid black;
     border-radius: 20px;
     padding: 20px;
     text-align: center;
