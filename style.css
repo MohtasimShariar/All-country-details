@@ -1,0 +1,52 @@
+#countries{
+    background-color:rgb(100, 151, 160);
+    border-radius: 20px;
+    padding: 2px;
+    display: grid;
+    grid-template-columns: repeat(3, .5fr);
+    grid-gap:25px;
+}
+.country{
+    border: 3px solid black;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+}
+.country-name{
+    font-size: 45px;
+    color: rgb(59, 247, 2);
+}
+.country-capital{
+    font-size: 30px;
+    color: rgb(59, 247, 2);
+}
+.country-Btn{
+    border-radius: 20px;
+    height: 60px;
+    width: 60px;
+    color: red;
+    font-size: 15px;
+    background-color: rgb(59, 247, 2);
+}
+
+#countryDetail {
+    background-color:gray;
+    border: 5px solid rgb(201, 196, 196);
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+    
+    
+}
+#countryDetail h1{
+    color: rgb(59, 247, 2);
+}
+#countryDetail h3{
+    color: rgb(214, 28, 28);
+}
+
+
+#countryDetail img{
+    width: 400px;
+}
